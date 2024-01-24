@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.footer-gguAio a, .footer a{
+    text-decoration: none;
+}
+
+.footer-gguAio a:hover, .footer a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;;
+}
