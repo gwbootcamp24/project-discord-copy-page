@@ -111,6 +111,7 @@ a{
     text-decoration: none;;
 }
 .content {
+    max-width: 1260px;
     width: 85%;
     margin: 0 auto;
 }
