@@ -1,0 +1,30 @@
+Repo Erstellung
+
+    Person A erstellt das Repo auf GH
+    Folgt den Anweisungen in GH. (Die Schritte 3 bis 8 sind im Grunde die gleichen wie in der GH-Anweisung)
+    Person A erstellt den Projektordner auf dem Computer.
+    Dieser Ordner muss dann als Git-Repo initialisiert werden (git init).
+    Erstellt eine Datei, z. B. index.html, und Commit (git add + git commit -m 'commit message')
+    Ändere den Namen des Master-Branches in Main (git branch -M main)
+    Lokale Repo mit Github Repo verknüpfen (git remote add origin ...link...)
+    Den Main branch auf GH pushen und dann solltet ihr den Code in GH sehen können (git push -u origin main)
+    Person A lädt die anderen Teammitglieder zur Kollaboration ein.
+    Person B und Person C nehmen die Einladung an und klonen das Projekt (git clone …link…).
+    Jedes Teammitglied erstellt seine eigene Branch und beginnt mit der Arbeit.
+
+
+Wenn eine Person bereit ist, den Branch zu pushen:
+
+    git checkout main
+    git pull
+    git checkout DEIN_BRANCH
+    git merge main
+    Konflikte lösen, wenn es sie gibt
+    Nochmal git add . und git commit -m ‘commit message’
+    git push oder git push -u origin DEIN_BRANCH
+    Pull Request (PR) erstellen und genehmigen.
+    Mit dem Main Branch in GH mergen.
+    DEIN_BRANCH auf GH und lokal löschen.
+
+
+    https://github.com/gwbootcamp24/project-discord-copy-page.git
