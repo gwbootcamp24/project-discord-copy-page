@@ -3,16 +3,46 @@
     margin: 0 auto;
 }
 
-.content .container {
-    background-color: lightgreen;
-}
-
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 80px 40px;
 }
 
-.content-img {
-    width: 30em;
+.content .last-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content .container {
+    display: flex;
+}
+
+
+.content-container-img {
+    width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content-img-img {
+    width: 100%;
+}
+
+.content-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.content h2 {
+    margin: 0 0 1em 0;
+}
+
+.download-button {
+    width: 150px;
 }
