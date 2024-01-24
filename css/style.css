@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;800&display=swap');
 
 * {
     margin: 0;
@@ -24,7 +24,7 @@ body {
 
 }
 
-a{
+.top-nav a{
     color: white;
     text-decoration: 0;
     padding: 10px;
@@ -39,6 +39,9 @@ header{
     max-width: 1260px;
     margin-left: auto;
     margin-right: auto;
+    min-height: 80px;
+    padding-left: var(--page-gutter);
+    padding-right: var(--page-gutter);
 }
 
 .firstcontainer{
@@ -48,14 +51,15 @@ header{
     height: 80px;
     min-height: 630px;
     background-image: url(../assets/clouds.svg);
-    background-color: #7289da;
+    background-color: #404eed;
 }
 
 
-button {
+header button {
     padding: 7px 16px;
     background-color: white;
     border-radius: 40px;
+    border-style: none;
     border-color: white;
     cursor: pointer;
     white-space: nowrap;
@@ -63,6 +67,7 @@ button {
     display: inline-flex;
     align-items: center;
     font-family: 'Noto Sans', sans-serif;
+    line-height: 24px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -112,7 +117,7 @@ a{
 }
 .content {
     max-width: 1260px;
-    width: 85%;
+    /* width: 85%; */
     margin: 0 auto;
 }
 
@@ -138,9 +143,9 @@ a{
 .content-container-img {
     width: 100%;
     height: auto;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 
 .content-img-img {
@@ -152,7 +157,15 @@ a{
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    flex-basis: 50%;
+    flex-basis: 40%;
+}
+
+.content-container-img + .content-container-text{
+    padding-left: 5vw
+}
+
+.content-container-text + .content-container-img {
+    padding-left: 5vw
 }
 
 .texttransform {
