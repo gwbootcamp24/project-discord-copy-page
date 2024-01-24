@@ -1,0 +1,59 @@
+Repo Erstellung
+
+    Person A erstellt das Repo auf GH
+    Folgt den Anweisungen in GH. (Die Schritte 3 bis 8 sind im Grunde die gleichen wie in der GH-Anweisung)
+    Person A erstellt den Projektordner auf dem Computer.
+    Dieser Ordner muss dann als Git-Repo initialisiert werden (git init).
+    Erstellt eine Datei, z. B. index.html, und Commit (git add + git commit -m 'commit message')
+    Ändere den Namen des Master-Branches in Main (git branch -M main)
+    Lokale Repo mit Github Repo verknüpfen (git remote add origin ...link...)
+    Den Main branch auf GH pushen und dann solltet ihr den Code in GH sehen können (git push -u origin main)
+    Person A lädt die anderen Teammitglieder zur Kollaboration ein.
+    Person B und Person C nehmen die Einladung an und klonen das Projekt (git clone …link…).
+    Jedes Teammitglied erstellt seine eigene Branch und beginnt mit der Arbeit.
+
+
+Wenn eine Person bereit ist, den Branch zu pushen:
+
+    git checkout main
+    git pull
+    git checkout DEIN_BRANCH
+    git merge main
+    Konflikte lösen, wenn es sie gibt
+    Nochmal git add . und git commit -m ‘commit message’
+    git push oder git push -u origin DEIN_BRANCH
+    Pull Request (PR) erstellen und genehmigen.
+    Mit dem Main Branch in GH mergen.
+    DEIN_BRANCH auf GH und lokal löschen.
+
+
+    https://github.com/gwbootcamp24/project-discord-copy-page.git
+
+
+
+
+
+<div class="row-31oovZ heroContainer-3YphMz">
+    <div class="heroBody-3BztOh">
+        <div class="heroText-RuKtKO">
+            <h1 class="h1-3dtzWh">Stell dir einen Ort vor,&nbsp;…</h1>
+            <div class="text-2H5FnP textMedium-2cZ80w heroSubtitle-2aVZl_">
+                … an dem du Teil eines Schulklubs, einer Gaming-Gruppe oder einer weltweiten Kunst-Community sein kannst. Ein Ort, an dem du einfach Zeit mit Freunden verbringen kannst. Ein Ort, an dem es leicht ist, sich jederzeit zu
+                treffen und zu unterhalten.
+            </div>
+        </div>
+        <div class="ctaContainer-5100Xg">
+            <a class="button-ZGMevK buttonWhite-1M-wED buttonLarge-3z9xOS marginTop24-3ZXBpg marginRight24-2hC304" href="//discord.com/api/downloads/distributions/app/installers/latest?channel=stable&amp;platform=win&amp;arch=x86">
+                <svg width="24" height="24" viewBox="0 0 24 24" class="icon-2tQ9Jt">
+                    <g fill="currentColor">
+                        <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
+                        <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
+                    </g>
+                </svg>
+                Download für Windows
+            </a>
+            <button class="button-ZGMevK buttonDark-3a8taR buttonLarge-3z9xOS gtm-click-class-open-button marginTop24-3ZXBpg" data-testid="button-open-discord-in-browser">Discord im Browser öffnen</button>
+        </div>
+    </div>
+</div>
+
