@@ -1,3 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.15;
+    width: auto;
+}
+
+.cta{
+    color: white;
+    flex: 0 0 auto;
+    width: 124px;
+    text-align: end;
+    display: flex;
+    flex-flow: row-reverse;
+    border: 40%;
+    cursor: pointer;
+
+}
+
+a{
+    color: white;
+    text-decoration: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstcontainer{
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    min-height: 630px;
+    background-image: url(../assets/clouds.svg);
+    background-color: #7289da;
+}
+
+
+button {
+    padding: 7px 16px;
+    background-color: white;
+    border-radius: 40px;
+    border-color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+    .clouds-31V58t {
+        margin-left: -1280px;
+    }
+}
+@media screen and (min-width: 768px) {
+.clouds-31V58t {
+    top: auto;
+    bottom: 0;
+    margin-left: -1320px;
+    }  
+}
+@media screen and (min-width: 768px) {
+.backgroundImages-2BJ24C {
+    display: block;
+    }
+}
+.backgroundImages-2BJ24C { 
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    }
 * {
     margin: 0;
     padding: 0;
